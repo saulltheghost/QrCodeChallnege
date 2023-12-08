@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css main style -->
+    <link rel="stylesheet" href="style.css" />
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -10,58 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet" />
     <title>QR-code login</title>
-    <style>
-      body {
-        font-family: "Outfit", sans-serif;
-        position: relative;
-        width: 100%;
-        height: 800px;
-        background-color: hsl(212, 45%, 89%);
-      }
-
-      .container {
-        position: absolute;
-        width: 300px;
-        top: 50%;
-        left: 50%;
-        padding: 20px;
-        background-color: white;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        -o-transform: translate(-50%, -50%);
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-        text-align: center;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-      }
-      .container img {
-        width: 100%;
-        border-radius: inherit;
-        -webkit-border-radius: inherit;
-        -moz-border-radius: inherit;
-        -ms-border-radius: inherit;
-        -o-border-radius: inherit;
-      }
-      p:nth-child(2) {
-        font-size: 25px;
-        font-weight: 700;
-        color: hsl(218, 44%, 22%);
-      }
-      p:nth-child(3) {
-        font-size: 17px;
-        color: hsl(220, 15%, 55%);
-        font-weight: 400;
-      }
-    </style>
   </head>
   <body>
     <div class="container">
-      <img src="images/image-qr-code.png" alt="" />
+      <img src="image-qr-code.png" alt="" />
       <p>Improve your front-end skills by building projects</p>
       <p>
         Scan the QR code to visit Frontend Mentor and take your coding skills to
